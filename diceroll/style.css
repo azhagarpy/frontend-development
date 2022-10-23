@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+    background-color: black;
+}
+.dicebox{
+    left: 390px;
+    top: 50px;
+    background-color: bisque;
+    position: absolute;
+    padding-left: 500px;
+    border: 3px solid;
+    text-align: center;
+    height: 500px;
+    width: 80px;
+}
+.dicebox:hover{
+    box-shadow: 0px 0px 50px greenyellow;
+}
+.imgbox{
+    padding-top: 70px;
+    padding-left: 130px;
+    height: 400px;
+    width: 70px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    transition: 5s;
+}
+.imgbox p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+    top: 5px;
+    position: absolute;
+}
+.rollbtn{
+    padding-top: 50px;
+}
+.rollbtn button{
+    height: 50px;
+    width: 300px;
+    color: aliceblue;
+    background-color: coral;
+    font-weight: bold;
+}
+.rollbtn button:hover{
+    background-color: chartreuse;
+    color: black;
+}

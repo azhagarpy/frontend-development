@@ -1,0 +1,34 @@
+.timer{
+    border: 5px solid black;
+    height: 100px;
+    width: 400px;
+    border-radius: 15px;
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+.container{
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    width: 400px;
+}
+#display{
+    font-weight: bolder;
+    text-align: center;
+    padding-right: 100px;
+}
+.timer p{
+    background-color: aquamarine;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+    float:left;
+    text-align: center;
+    font-variant: small-caps;
+    border: 1px solid black;
+    width: 100px;
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    line-height: 10vh;
+    margin-left: 20px;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.nav-links ul {
+    list-style: none;
+    margin-right: 5vw;
+    display: flex;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.nav-links ul li {
+    line-height: 10vh;
+    margin-right: 5vw;
+}
+
+.profile-box {
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-box img {
+    margin-top: 10px;
+    height: 50vh;
+    width: 50vw;
+}
+
+.contant {
+    margin-top: 4vh;
+    color: aliceblue;
+    text-transform: capitalize;
+    border-bottom: 0.2px solid white;
+    width: 100vw;
+    height: 40vh;
+    text-align: center;
+}
+
+.contant h1 {
+    font-size: larger;
+    margin-top: 5px;
+}
+
+.contant p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.footer i {
+    color: aliceblue;
+    font-size: 50px;
+    padding: 30px;
+    position: relative;
+    top: -60px;
+}
+
+.footer {
+    width: 100vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.insta i {
+    color: pink;
+}
+
+.yt i {
+    color: red;
+}
+
+.wp i {
+    color: green;
+}

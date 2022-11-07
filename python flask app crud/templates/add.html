@@ -1,0 +1,13 @@
+{% extends 'layout.html'  %}
+{% block contant %}
+<div class="col-md-5 container" >
+    <h1 class="text-primary" style="margin-top:30px;">ADD PAGE</h1>
+    <form class="from-group" style="margin-top:80px;" action="{{url_for('add_dept')}}" method="POST">
+        <label>DEPT NAME</label>
+        <input type="text" class="form-control" name="deptname">
+        <label>DEPT CODE</label>
+        <input type="text"  class="form-control" name="deptcode">
+        <button class="btn btn-primary mt-2">SUBMIT</button>
+    </form>
+</div>
+{%  endblock%}

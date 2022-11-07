@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    
+    .container {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        background-color: coral;
+        line-height: 70px;
+    }
+    
+    nav ul {
+        width: 40vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav ul li {
+        list-style: none;
+    }
+    
+    nav ul li a {
+        display: block;
+        height: 70px;
+        width: 100px;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+    
+    nav ul li a:hover {
+        background-color: rgb(223, 77, 24);
+    }
+    
+    .logo {
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    
+    .logo img {
+        height: 60px;
+        border-radius: 50%;
+    }
+    
+    .contant {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .contant img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .contant-a {
+        height: 100px;
+        text-align: center;
+        align-items: center;
+        background-color: aliceblue;
+        color: black;
+        position: absolute;
+        z-index: 1;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .contant-a h1 {
+        margin-top: 10px;
+    }
+    
+    .contant-a p {
+        font-weight: bold;
+    }
+    
+    #Schedule,
+    .sch {
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(45, 102, 151);
+        text-align: center;
+        position: relative;
+    }
+    
+    #a-1 {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid red;
+        height: 70px;
+        width: 100%;
+        background: rgb(121, 255, 80);
+        line-height: 70px;
+        word-spacing: 5px;
+    }
+    
+    #Schedule img,
+    .sch img,
+    .speakers img {
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        left: 10px;
+        bottom: 100px;
+        outline: 10px solid rebeccapurple;
+    }
+    
+    .txt {
+        margin-left: 300px;
+        margin-top: 100px;
+    }
+    
+    .txt h2 {
+        margin-top: 10px;
+    }
+    
+    .a1 {
+        border-bottom: 1px solid black;
+    }
+    
+    .timemanagement {
+        margin-top: 30px;
+        margin-left: 400px;
+    }
+    
+    .timemanagement td,
+    th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+    
+    .speakers {
+        position: absolute;
+        background-color: aquamarine;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .speakers img {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .txts {
+        margin-left: 800px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img class="speakerimg" src="images/logo1.jpeg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#Schedulea">Schedule</a></li>
+                    <li><a href="#speakersa">Speakers</a></li>
+                    <li><a href="#">Sponsors</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="#">Conatct</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contant">
+            <div class="contant-a">
+                <h1>Government Arts and Science Collage</h1>
+                <br>
+                <p>Thittagudi-606106</p>
+            </div>
+            <img src="images/img1.jpeg" alt="">
+        </div>
+        <div id="Schedule">
+            <h1 id="a-1">NATIONAL LEVEL TECHNICAL SYMPOSIUM</h1>
+            <img src="images/img2.jpg" alt="">
+            <div class="txt">
+                <h1 style="margin-bottom: 10px;">A National Level Technical Symposium(TechFeast2K22)</h1>
+                <p>Paper Presentation ,Web Desigining,Debugging,Logo Desining</p>
+            </div>
+        </div>
+        <div id="Schedulea" class="sch">
+            <h1 id="a-1">SCHEDULE OF THE EVENT</h1>
+            <img src="images/watch.jpeg" alt="">
+            <div class="txt">
+                <h2>DATE : 28-10-2022</h2>
+                <h2 class="a1">TIME : 10:00 AM - 4:00 PM</h2>
+                <div class="timemanagement">
+                    <table>
+                        <tr>
+                            <th>TEA BREAK</th>
+                            <td>11:00 AM to 11:15 AM</td>
+                        </tr>
+                        <tr>
+                            <th>EVENTS</th>
+                            <td>11:15 AM to 01:00 PM</td>
+                        </tr>
+                        <tr>
+                            <th>LUNCH</th>
+                            <td>01:00 PM to 02:00 PM</td>
+                        </tr>
+                        <tr>
+                            <th>EVENTS</th>
+                            <td>02:00 PM to 03:15 PM</td>
+                        </tr>
+                        <tr>
+                            <th>TEA BREAK</th>
+                            <td>03:15 PM to 03:30 PM</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        <div class="speakers " id="speakersa">
+            <h1 id="a-1">SPEAKERS</h1>
+
+            <img src="images/speakers.jpg" alt="">
+            <div class="txt txts">
+                <p><b>INAUGURAL ADDRESS : <br> </b><br><b> Dr.M. MUTHUSWAMY,</b><br>Principal</p><br>
+                <p><b>FELICITATION ADDRESS : <br> </b><br> <b> Dr.SP. PONNUSAMY,</b><br>Convener & HOD,CS <br>Dr.J.JEGATHESH AMALRAJ,<br>Convener & HOD,BCA</p><br>
+                <p><b>KEYNOTE ADDRESS : <br> </b><br> <b> Dr.K. SANKAR,</b><br>Head,Department of computer sceince, <br>Government Arts and Science Collage KAllakurichi</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

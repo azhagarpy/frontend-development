@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite ;
+}
+
+.slider {
+    margin: auto;
+    display: flex;
+    height: 600px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    border: 1PX solid black;
+    box-shadow: -10px -10px 10px rgb(255, 248, 248),10px 10px 10px rgb(78, 74, 74);
+    background-color: rgba(250, 29, 0, 0.322);
+    border-radius: 5%;
+}
+.slider img{
+    min-height: 300px;
+    width: 400px;
+    border-radius: 10%;
+}
+.slider button{
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+    color: aliceblue;
+    background-color: rgb(0, 225, 255);
+    font-family: cursive;
+    font-weight: bold;
+}
+.slider button:hover{
+    background-color: aquamarine;
+    color: black;
+    transition: 1s;
+}

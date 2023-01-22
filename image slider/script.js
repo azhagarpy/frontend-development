@@ -1,5 +1,5 @@
 // add extra images names to this array with web/ and index
-const images = ['web/img1.jpg', 'web/img2.jpg', 'web/img3.jpg', 'web/img4.jpg']
+const images = ['web/img1.jpg', 'web/img2.png', 'web/img3.jpg', 'web/img4.jpg']
 const photo = document.querySelector('.photo')
 var num = 0;
 function nextImage() {
